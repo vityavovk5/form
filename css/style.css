@@ -12,8 +12,10 @@ body {
     overflow: auto;
 }
 .formBridge {
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
     padding-top: 45px;
     height: 400px;
+    width: 400px;
     margin: 0 auto;
     background: url(../img/bg.jpg) center no-repeat;
 }

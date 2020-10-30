@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+#form {
+    padding-top: 15vh;
+    background-color: #e5eeee;
+    height: 100vh;
+    overflow: auto;
+}
+.formBridge {
+    padding-top: 45px;
+    height: 400px;
+    margin: 0 auto;
+    background: url(../img/bg.jpg) center no-repeat;
+}
+.formSign {
+    width: 262px;
+    margin: 0 auto;
+}
+.formTitle {
+    display: flex;
+}
+.formTitle > div {
+    padding: 0 15px 0 0;
+   font-size: 18px;
+}
+form {
+    margin-top: 40px;
+}
+form > p {
+    font-size: 18px;
+ margin: 10px 0 5px;
+}
+input[type=text], input[type=password], input[type=email], input[type=tel] {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #a087c8;
+    height: 40px;
+}
+input[type=checkbox] {
+margin-top: 10px;
+}
+#div2{
+    display: none;
+  }
+  .buttom-form {
+      width: 100%;
+      height: 40px;
+      background-color: #23ae92;
+      border: 1px solid white;
+      color: white;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+  }
+  .buttom-form:hover {
+    background-color: white;
+    border: 1px solid #23ae92;
+      color: #23ae92;
+  }
+  .form-help {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .form-help > a {
+    color: white;
+    opacity: 0.6;
+    font-size: 14px;
+  }
+  .form-help > a:hover {
+      opacity: 1;
+  }
+  #singJs {
+      color: white;
+      font-size: 18px;
+    background-color: transparent;
+    border: 0px solid transparent;
+    padding: 0 20px 0 0 ;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  #joinJs {
+    color: white;
+    font-size: 18px;
+  background-color: transparent;
+  border: 0px solid transparent;
+  padding: 0 20px 0 0 ;
+  cursor: pointer;
+  font-weight: 700;
+  opacity: 0.5;
+}

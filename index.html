@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <section id="form">
+        <div class="formBridge">
+            <div class="formSign">
+                <div class="formTitle">
+                 
+                    
+                    <div type="button"  id="singJs" onmousedown="singIn()">Sing in</div>
+                    <div type="button" id="joinJs" onmousedown="joinUs()">Join us</div>
+                </div>
+                <div id="div1"> 
+                <form action="https://formspree.io/f/mnqodeny" method="post" target="_blank">
+                    <p>Username</p>
+                    <input type="text" name="name" required="">
+                    <p>Password</p>
+                    <input type="password" name="password" required="" minlength="5" maxlength="20">
+                    <input type="checkbox" id="info" name="info" checked>
+                    <label for="info">Keep me signed in</label>
+                    <button type="submit" class="buttom-form">Sign in</button>
+                </form>
+                <div class="form-help">
+                    <a href="">Forgot password</a>
+                    <a href="">Create an account</a>
+                </div>
+                </div>
+                <div id="div2">
+                    <form action="https://formspree.io/f/mnqodeny" method="post" target="_blank">
+                        <p>Username</p>
+                        <input type="text" name="name" required="">
+                        <p>Phone</p>
+                        <input type="tel" name="phone" required="" minlength="7" maxlength="20">
+                        <p>Password</p>
+                        <input type="password" name="password" required="" minlength="5" maxlength="20">
+                       
+                        <button type="submit" class="buttom-form">Sign in</button>
+                    </form>    
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+</body>
+</html>
